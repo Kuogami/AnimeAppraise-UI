@@ -1,6 +1,6 @@
 
 .header {
-    background-color: #fff;
+    background-color: #FF69B4;
 }
 
 .top-bar {
@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #ff6633;
+    border-bottom: 2px solid #B15E2C;
     position: fixed;
     top: 0;
     z-index: 500;
@@ -21,7 +21,7 @@
 
 .header-back-btn {
     width: 10%;
-    color: #ff6633;
+    color: #B15E2C;
     font-size: 24px;
     font-weight: bold;
 }

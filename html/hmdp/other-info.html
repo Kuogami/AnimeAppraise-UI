@@ -39,7 +39,7 @@
     </div>
     <div class="basic-info">
       <div class="name">{{user.nickName}}</div>
-      <span>杭州</span>
+      <span>南京</span>
     </div>
     <div class="logout-btn" @click="follow" style="text-align: center">
       {{followed ? "取消关注" : "关注"}}
@@ -47,7 +47,7 @@
   </div>
   <div class="introduce">
     <span v-if="info.introduce"></span>
-    <span v-else>这个人很懒，什么都没有留下</span>
+    <span v-else>这个人很神秘，什么都没有写</span>
   </div>
   <div class="content">
     <el-tabs v-model="activeName" @tab-click="handleClick">
